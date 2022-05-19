@@ -1,0 +1,453 @@
+version: "3.1"
+
+stories:
+
+- story: greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: bye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: confirm 
+  steps: 
+  - intent: confirm 
+  - action: utter_confirm
+
+- story: vision nhc
+  steps:
+  - intent: vision_nhc
+  - action: utter_vision_nhc
+  - action: utter_other
+
+- story: message nhc
+  steps:
+  - intent: message_nhc
+  - action: utter_message_nhc
+  - action: utter_other
+
+- story: Valuable nhc
+  steps:
+  - intent: Valuable_nhc
+  - action: utter_Valuable_nhc
+  - action: utter_other
+
+- story: strategy nhc
+  steps:
+  - intent: strategy_nhc
+  - action: utter_strategy_nhc
+  - action: utter_other
+
+- story: axes nhc
+  steps:
+  - intent: axes_nhc
+  - action: utter_axes_nhc
+  - action: utter_other
+
+- story: jadarat khalaaqa exes
+  steps:
+  - intent: jadarat_khalaaqa_exes
+  - action: utter_jadarat_khalaaqa_exes
+  - action: utter_other
+
+- story: altamayuz almuasisii exes
+  steps:
+  - intent: altamayuz_almuasisii_exes
+  - action: utter_altamayuz_almuasisii_exes
+  - action: utter_other
+
+- story: effective productivity exes
+  steps:
+  - intent: effective_productivity_exes
+  - action: utter_effective_productivity_exes
+  - action: utter_other
+
+- story: aliastidama exes
+  steps:
+  - intent: aliastidama_exes
+  - action: utter_aliastidama_exes
+  - action: utter_other
+
+- story: efficient estate investment exes
+  steps:
+  - intent: efficient_estate_investment_exes
+  - action: utter_efficient_estate_investment_exes
+  - action: utter_other
+
+- story: nhc_sector
+  steps:
+  - intent: nhc_sector
+  - action: utter_nhc_sector
+  - action: utter_other
+  
+- story: executive office
+  steps:
+  - intent: executive_office
+  - action: utter_executive_office
+  - action: utter_other
+
+- story: jobs executive office
+  steps:
+  - intent: jobs_executive_office
+  - action: utter_jobs_executive_office
+  - action: utter_other
+
+
+- story: HR Sector
+  steps:
+  - intent: HR_Sector
+  - action: utter_HR_Sector
+  - action: utter_other
+
+
+- story: jobs HR sector
+  steps:
+  - intent: jobs_HR_sector
+  - action: utter_jobs_HR_sector
+  - action: utter_other
+
+
+
+- story: legal management governance and ompliance sector
+  steps:
+  - intent: legal_management_governance_ompliance_sector
+  - action: utter_legal_management_governance_ompliance_sector
+  - action: utter_other
+
+
+- story: jobs governance department
+  steps:
+  - intent: jobs_governance_department
+  - action: utter_jobs_governance_department
+  - action: utter_other
+
+
+- story: jobs legal department
+  steps:
+  - intent: jobs_legal_department
+  - action: utter_jobs_legal_department
+  - action: utter_other
+
+- story: jobs commitment management
+  steps:
+  - intent: jobs_commitment_management
+  - action: utter_jobs_commitment_management
+  - action: utter_other
+
+- story: enterpriseProject managementOffice
+  steps:
+  - intent: enterpriseProject_managementOffice
+  - action: utter_enterpriseProject_managementOffice
+  - action: utter_other
+
+- story: jobs enterpriseProject managementOffice
+  steps:
+  - intent: jobs_enterpriseProject_managementOffice
+  - action: utter_jobs_enterpriseProject_managementOffice
+  - action: utter_other
+
+- story: enterpriseRiskManagement_businessContinuity_cybersecurity
+  steps:
+  - intent: enterpriseRiskManagement_businessContinuity_cybersecurity
+  - action: utter_enterpriseRiskManagement_businessContinuity_cybersecurity
+  - action: utter_other
+
+
+- story: jobs enterpriseRiskManagement businessContinuity cybersecurity
+  steps:
+  - intent: jobs_enterpriseRiskManagement_businessContinuity_cybersecurity
+  - action: utter_jobs_enterpriseRiskManagement_businessContinuity_cybersecurity
+  - action: utter_other
+
+- story: strategy and development sector
+  steps:
+  - intent: strategy_development_sector
+  - action: utter_strategy_development_sector
+  - action: utter_other
+
+
+- story: jobs strategy and development sector
+  steps:
+  - intent: jobs_strategy_development_sector
+  - action: utter_jobs_strategy_development_sector
+  - action: utter_other
+
+
+- story: general Administration Of Marketing and corporate Communication
+  steps:
+  - intent: generalAdministrationOfMarketing_corporateCommunication
+  - action: utter_generalAdministrationOfMarketing_corporateCommunication
+  - action: utter_other
+
+- story: jobs general Administration Of Marketing and corporate Communication
+  steps:
+  - intent: jobs_generalAdministrationOfMarketing_corporateCommunication
+  - action: utter_jobs_generalAdministrationOfMarketing_corporateCommunication
+  - action: utter_other
+
+
+- story: Real estate investment and Development sector
+  steps:
+  - intent: Realestate_investmentDevelopment_sector
+  - action: utter_Realestate_investmentDevelopment_sector
+  - action: utter_other
+
+
+- story: jobs Real estate investment and Development sector
+  steps:
+  - intent: jobs_Realestate_investmentDevelopment_sector
+  - action: utter_jobs_Realestate_investmentDevelopment_sector
+  - action: utter_other
+
+
+- story: shared services sector
+  steps:
+  - intent: shared_services_sector
+  - action: utter_shared_services_sector
+  - action: utter_other
+
+
+- story: operational Excellence and performanceManagement
+  steps:
+  - intent: operationalExcellence_performanceManagement
+  - action: utter_operationalExcellence_performanceManagement
+  - action: utter_other
+
+- story: jobs operational Excellence and performanceManagement
+  steps:
+  - intent: jobs_operationalExcellence_performanceManagement
+  - action: utter_jobs_operationalExcellence_performanceManagement
+  - action: utter_other
+
+- story: information technology management
+  steps:
+  - intent: information_technology_management
+  - action: utter_information_technology_management
+  - action: utter_other
+
+- story: jobs information technology management
+  steps:
+  - intent: jobs_information_technology_management
+  - action: utter_jobs_information_technology_management
+  - action: utter_other
+
+- story: general Administration of purchasing
+  steps:
+  - intent: generalAdministration_of_purchasing
+  - action: utter_generalAdministration_of_purchasing
+  - action: utter_other
+
+- story: jobs general Administration of purchasing
+  steps:
+  - intent: jobs_generalAdministration_of_purchasing
+  - action: utter_jobs_generalAdministration_of_purchasing
+  - action: utter_other
+
+- story: commercial development sector
+  steps:
+  - intent: commercial_development_sector
+  - action: utter_commercial_development_sector
+  - action: utter_other
+
+
+- story: jobs commercial development sector
+  steps:
+  - intent: jobs_commercial_development_sector
+  - action: utter_jobs_commercial_development_sector
+  - action: utter_other
+
+
+- story: programs training courses
+  steps:
+  - intent: programs_training_courses
+  - action: utter_programs_training_courses
+  - action: utter_other
+
+- story: development collage
+  steps:
+  - intent: development_collage
+  - action: utter_development_collage
+  - action: utter_other
+
+
+- story: annual training program
+  steps:
+  - intent: annual_training_program
+  - action: utter_annual_training_program
+  - action: utter_other
+
+- story: E-learning
+  steps:
+  - intent: E_learning
+  - action: utter_E_learning
+  - action: utter_other
+
+
+- story: leadership college
+  steps:
+  - intent: leadership_college
+  - action: utter_leadership_college
+  - action: utter_other
+
+- story: Duration and Objectives of the Senior Leadership Program
+  steps:
+  - intent: Duration_Objective_seniorLeadership_Program
+  - action: utter_Duration_Objective_seniorLeadership_Program
+  - action: utter_other
+
+
+- story: Duration and Objectives of the Manager development program
+  steps:
+  - intent: Duration_Objective_Managerdevelopment_program
+  - action: utter_Duration_Objective_Managerdevelopment_program
+  - action: utter_other
+
+- story: Specialization collage
+  steps:
+  - intent: Specialization_collage
+  - action: utter_Specialization_collage
+  - action: utter_other
+
+- story: content and Objectives of the Engineers program
+  steps:
+  - intent: content_Objective_Engineers_program
+  - action: utter_content_Objective_Engineers_program
+  - action: utter_other
+
+- story: professional certifications
+  steps:
+  - intent: professional_certifications
+  - action: utter_professional_certifications
+  - action: utter_other
+
+- story: waeid program
+  steps:
+  - intent: waeid_program
+  - action: utter_waeid_program
+  - action: utter_other
+
+- story: Advanced Engineers program
+  steps:
+  - intent: Advanced_Engineers_program
+  - action: utter_Advanced_Engineers_program
+  - action: utter_other
+
+- story: upgrade requirements
+  steps:
+  - intent: upgrade_requirements
+  - action: utter_upgrade_requirements
+  - action: utter_other
+
+- story: annual increase
+  steps:
+  - intent: annual_increase
+  - action: utter_annual_increase
+  - action: utter_other
+
+- story: Apply jobs
+  steps:
+  - intent: Apply_jobs
+  - action: utter_Apply_jobs
+  - action: utter_other
+
+- story: Available jobs
+  steps:
+  - intent: Available_jobs
+  - action: utter_Available_jobs
+  - action: utter_other
+
+- story: Employment procedures
+  steps:
+  - intent: Employment_procedures
+  - action: utter_Employment_procedures
+  - action: utter_other
+
+- story: administrative Affairs and public Services
+  steps:
+  - intent: administrativeAffairs_publicServices
+  - action: utter_administrativeAffairs_publicServices
+  - action: utter_other
+
+- story: Benih College
+  steps:
+  - intent: Benih_College
+  - action: utter_Benih_College
+  - action: utter_other
+
+- story: content Leadership Program
+  steps:
+  - intent: content_Leadership_Program
+  - action: utter_content_Leadership_Program
+  - action: utter_other
+
+- story: path about time
+  steps:
+  - intent: give_time
+  - action: action_show_time
+  - action: utter_other
+
+
+
+
+- story: HR Policies and Procedures Manual
+  steps:
+  - intent: HR_Policies_Procedures_Manual
+  - action: utter_HR_Policies_Procedures_Manual
+  - action: utter_other
+
+- story: Legal Department Policy
+  steps:
+  - intent: Legal_Department_Policy
+  - action: utter_Legal_Department_Policy
+  - action: utter_other
+
+- story: Commitment Policy
+  steps:
+  - intent: Commitment_Policy
+  - action: utter_Commitment_Policy
+  - action: utter_other
+
+- story: Staff Manual
+  steps:
+  - intent: Staff_Manual
+  - action: utter_Staff_Manual
+  - action: utter_other
+
+- story: General Purchasing Administration Manual
+  steps:
+  - intent: General_Purchasing_Administration_Manual
+  - action: utter_General_Purchasing_Administration_Manual
+  - action: utter_other
+
+- story: administrativeAffairs_publicServices_Manual
+  steps:
+  - intent: administrativeAffairs_publicServices_Manual
+  - action: utter_administrativeAffairs_publicServices_Manual
+  - action: utter_other
+
+- story: Organizational Structure Manual
+  steps:
+  - intent: Organizational_Structure_Manual
+  - action: utter_Organizational_Structure_Manual
+  - action: utter_other
+
+- story: users Guide
+  steps:
+  - intent: users_Guide
+  - action: utter_users_Guide
+  - action: utter_other
+
+- story: riyadh
+  steps:
+  - intent: wethers
+  - action: action_riyadh
+  - action: utter_other
+
+- story: Daily Prayer Time
+  steps:
+  - intent: Daily_Prayer_Time
+  - action: action_Daily_Prayer_Time
+  - action: utter_other
